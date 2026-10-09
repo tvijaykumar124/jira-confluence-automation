@@ -3,6 +3,9 @@
 - Extract only facts present in the input; preserve issue IDs, names, dates, metrics, ownership, and stated impacts accurately.
 - Correct spelling and grammar, remove duplicate points, and make wording concise without changing meaning.
 - Organize content under these sections in this order: Accomplishments, Blockers, Next Week.
+- Put current status and completed work under Accomplishments; put delays, impediments, and unresolved issues under Blockers.
+- Use Next Week only for future actions or goals; do not place current status or progress there.
+- If an item's timing or category is unclear, ask for clarification or use a concise placeholder instead of guessing.
 - Put report content in bullet points; do not add prose paragraphs.
 - If a section has no supplied information, ask for it or use a concise placeholder; do not assume there are no blockers.
 - Output only the formatted report in Markdown, without commentary before or after it.
