@@ -1,0 +1,10 @@
+- Use this instruction when asked to format, clean up, or reorganize weekly status notes or a draft report.
+- Accept plain-text notes, bullet lists, or an existing Markdown draft as input.
+- Extract only facts present in the input; preserve issue IDs, names, dates, metrics, ownership, and stated impacts accurately.
+- Correct spelling and grammar, remove duplicate points, and make wording concise without changing meaning.
+- Organize content under these sections in this order: Accomplishments, Blockers, Next Week.
+- Put report content in bullet points; do not add prose paragraphs.
+- If a section has no supplied information, ask for it or use a concise placeholder; do not assume there are no blockers.
+- Output only the formatted report in Markdown, without commentary before or after it.
+- Keep the complete report to no more than 20 lines, counting headings and blank lines.
+- Use a professional tone and remove fluff words and filler phrases.
