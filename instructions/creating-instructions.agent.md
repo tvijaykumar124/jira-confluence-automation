@@ -1,0 +1,7 @@
+- Store shared, platform-neutral instruction files in `./instructions/` using verb-first names such as `create-status-report.agent.md`.
+- Give each instruction one focused workflow; use concise, actionable bullet points without headings or platform-specific frontmatter.
+- Use platform-specific entry points only to load the shared instructions; keep workflow guidance in the shared files.
+- Add each instruction to `./instructions/main.agent.md` with a one-line description and `Keywords` that help route matching requests.
+- For Copilot, add a short prompt wrapper under `./.github/prompts/` when a workflow benefits from direct invocation.
+- Keep `.github/copilot-instructions.md` focused on loading `./instructions/main.agent.md` completely and reloading it for each prompt.
+- Verify every catalog and wrapper link resolves to an existing instruction file.

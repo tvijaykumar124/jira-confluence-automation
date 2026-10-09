@@ -1,0 +1,7 @@
+- Generate a weekly status report using only information provided by the user.
+- Format the report as Markdown.
+- Include these sections: Accomplishments, Blockers, Next Week.
+- Use bullet points for all report content; do not write prose paragraphs.
+- Keep the complete report to a maximum of 20 lines, including headings.
+- Use a professional tone and avoid fluff words or filler phrases.
+- Do not invent facts; ask for missing details or use concise placeholders.

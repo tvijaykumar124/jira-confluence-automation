@@ -1,0 +1,4 @@
+- Important! Always follow the instructions in `./instructions/main.agent.md`.
+- Always load `./instructions/main.agent.md` completely, not partially.
+- The catalog links to focused instruction files; load the relevant file in full for each task.
+- Reload the catalog and relevant instruction file on every prompt to use their latest contents.
