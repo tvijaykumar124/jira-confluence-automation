@@ -12,3 +12,5 @@ AI Hands-On/
 ```
 
 Add project-specific instructions and experiment notes here as the workspace grows.
+
+# jira-confluence-automation

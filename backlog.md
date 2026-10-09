@@ -3,8 +3,8 @@
 Source: [project_spec.md](project_spec.md)
 
 ## Phase 1: Setup
-- [ ] Confirm the Team ROL13 board is configured as a Scrum board (required for the Velocity Chart gadget)
-- [ ] Verify issues on the Team ROL13 board are consistently estimated with story points
+- [ ] Confirm the Team ROL13 board is configured as a Scrum board (required for the Velocity Chart gadget) — [GitHub issue #1](https://github.com/tvijaykumar124/jira-confluence-automation/issues/1)
+- [ ] Verify issues on the Team ROL13 board are consistently estimated with story points — [GitHub issue #3](https://github.com/tvijaykumar124/jira-confluence-automation/issues/3)
 - [ ] Create a new Jira Dashboard named "Sprint Progress — Team ROL13"
 - [ ] Set dashboard sharing permissions to the requester + Team ROL13 group only
 
