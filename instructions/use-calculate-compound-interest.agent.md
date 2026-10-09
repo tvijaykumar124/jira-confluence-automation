@@ -1,0 +1,7 @@
+- Use `./tools/compound_interest.py` when asked to calculate compound interest and the principal, annual rate, compounding frequency, and duration are available.
+- Ask for any missing input; do not infer financial values.
+- Invoke it as `python tools/compound_interest.py <principal> <annual_rate_percent> <compounds_per_year> <years>`.
+- Pass arguments in that order; enter the annual rate as a percentage (for example, `7.34` for 7.34%).
+- Use a nonnegative principal, rate, and duration; compounding frequency must be a positive integer.
+- If Python is unavailable, state that the script was not run; do not present an independent estimate as script output.
+- Present the labeled final amount and interest earned according to `./instructions/calculate-compound-interest.agent.md`.

@@ -1,0 +1,9 @@
+- Use `./tools/compound_interest.py` when the user asks to calculate compound interest and provides a principal, annual rate, compounding frequency, and duration.
+- Ask for any missing input instead of guessing.
+- Pass positional arguments in this order: `principal`, `annual_rate`, `compounds_per_year`, `years`.
+- Enter `annual_rate` as a percentage (for example, `7.34` means 7.34%, not `0.0734`).
+- Invoke the script with Python as `python tools/compound_interest.py <principal> <annual_rate_percent> <compounds_per_year> <years>`.
+- Ensure principal, annual rate, and years are zero or greater; `compounds_per_year` must be a positive integer.
+- Present both output values with their labels: final amount and interest earned, rounded to two decimal places.
+- The script formats results with a `$` symbol; disclose this assumption if the user requested another currency.
+- Do not claim the script ran if Python is unavailable; tell the user and distinguish any unexecuted estimate from actual script output.
